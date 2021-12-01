@@ -121,7 +121,7 @@ document.querySelector("#encrypt").addEventListener("click", async function(even
   document.querySelector("#folder_link").setAttribute("disabled", "");
   document.querySelector("#encrypt").setAttribute("disabled", "");
   try {
-    document.querySelector("#encrypted_link").value = "cHJvZHVjdGlvbi50ZXN0Z2RzLmZjbW92aWVzNC53b3JrZXJzLmRldg==." + (await encryptFolder());
+    document.querySelector("#encrypted_link").value = "https://coderjd-automation.github.io/efc/#" + (await encryptFolder());
   }
   catch(e) {
     alert(e.message);
